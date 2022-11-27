@@ -1,0 +1,1 @@
+alert("Halo, aku adalah Ryota dan ini adalah program JS Eksternal");
