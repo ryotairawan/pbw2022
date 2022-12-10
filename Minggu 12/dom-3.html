@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-Ua-Compatible" content="ie=edge">
+	<title>DOM API Javascript</title>
+</head>
+<body>
+	<centeR><h1>Mencoba DOM API Javascript versi 2</h1></centeR>
+	<hr>
+
+<p class="paragraf">Lorem Ipsum dolor sit amet consectetur adispicing elit.
+	Quo enggak tau mencoba-coba lah aku tidak tau ea fugit,
+	debitis alla ipsum illo dolorum conequeror sed latatataum
+	susciput quis magni efo,
+	         maiores in?</p>
+
+<p class="paragraf">Lorem Ipsum dolor sit amet consectetur adispicing elit.
+	Quo enggak tau mencoba-coba lah aku tidak tau ea fugit,
+	debitis alla ipsum illo dolorum conequeror sed latatataum
+	susciput quis magni efo,
+	         maiores in?</p>
+
+<p class="paragraf">Lorem Ipsum dolor sit amet consectetur adispicing elit.
+	Quo enggak tau mencoba-coba lah aku tidak tau ea fugit,
+	debitis alla ipsum illo dolorum conequeror sed latatataum
+	susciput quis magni efo,
+	         maiores in?</p>
+
+<script>
+	var paragraf = document.getElementsByClassName("paragraf");
+	setInterval(function () {
+		paragraf[0].style.color = "red";
+		paragraf[1].style.color = "blue";
+		paragraf[2].style.color = "green";
+
+		setTimeout(function () {
+		paragraf[0].style.color = "black";
+		paragraf[1].style.color = "black";
+		paragraf[2].style.color = "black";
+
+	}, 500)
+}, 1000);
+</script>
+
+</body>
+</html>
