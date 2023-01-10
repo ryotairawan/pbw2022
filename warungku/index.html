@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Web Waroengku, Food Waroengku">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Ryota Irawan">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WaroengKU</title>
+
+        <link
+        rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+        <!-- untuk font awesome cdn link  -->
+        <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- untuk custom css file link  -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- untuk favicon nya -->
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="favicon/x-icon">
+
+    </head>
+    <body>
+
+        <!-- untuk headernya section starts      -->
+
+        <header>
+
+            <a href="#" class="logo">
+                <i class="fas fa-utensils"></i>WaroengKU.</a>
+
+            <nav class="navbar">
+                <a class="active" href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#order">Order</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </div>
+
+        </header>
+
+        <!-- header section ends-->
+        <!-- search form  -->
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+        <main
+            class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Waroeng<span>KU</span>
+                        </h1>
+                        <h2 class="home__subtitle">Makanan yang
+                            <br>
+                            sudah pasti enak dan terjangkau</h2>
+                    </div>
+
+                    <img src="assets/img/kopiecoffee.jpg" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">Kami memasak yang terbaik
+                            <br>
+                            makanan yang enak
+                        </h2>
+                        <p class="about__description">Kami memasak makanan terbaik di seluruh kota, dengan layanan pelanggan yang sangat baik, makanan terbaik, dan harga terbaik, kunjungi kami.</p>
+                        <a href="history.html" class="button">Explore history</a>
+                    </div>
+
+                    <img src="assets/img/kopiecoffee.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">Menu minggu ini</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/ayamgoreng.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Ayam Goreng</h3>
+                        <span class="menu__detail">Dengan sambal pilihan dan sayur yang segar</span>
+                        <span class="menu__preci">Rp 15
+                            <sup>Ribu</sup>
+                        </span>
+                        <a href="#" class="button menu__button">
+                            <i class='bx bx-cart-alt'></i>
+                        </a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/ikanmanyung.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Ikan Manyung</h3>
+                        <span class="menu__detail">Dengan bumbu pilihan, dan rasanya pasti ENAK!</span>
+                        <span class="menu__preci">Rp 25
+                            <sup>Ribu</sup>
+                        </span>
+                        <a href="#" class="button menu__button">
+                            <i class='bx bx-cart-alt'></i>
+                        </a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/nasigoreng.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Nasi Goreng</h3>
+                        <span class="menu__detail">Berbagai macam pilihan Nasi Goreng, yang pasti rasanya gak bikin kamu nyesel</span>
+                        <span class="menu__preci">Rp 22
+                            <sup>Ribu</sup>
+                        </span>
+                        <a href="#" class="button menu__button">
+                            <i class='bx bx-cart-alt'></i>
+                        </a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="assets/img/ayamkremes.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Ayam Kremes</h3>
+                        <span class="menu__detail">yam goreng yang dibaluti dengan kremesan buatan sendiri.</span>
+                        <span class="menu__preci">Rp 20
+                            <sup>Ribu</sup>
+                        </span>
+                        <a href="#" class="button menu__button">
+                            <i class='bx bx-cart-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">Jika Anda ingin memesan meja di restoran kami, hubungi kami dan kami akan melayani Anda dengan cepat, dengan layanan obrolan 24/7 kami.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="contact.html" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- order section starts  -->
+
+        <section class="order" id="order">
+
+            <h3 class="sub-heading">
+                order now
+            </h3>
+            <h1 class="heading">
+                free and fast
+            </h1>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <div class="input">
+                        <span>your name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="input">
+                        <span>your number</span>
+                        <input type="number" placeholder="enter your number">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>your order</span>
+                        <input type="text" placeholder="enter food name">
+                    </div>
+                    <div class="input">
+                        <span>additional food</span>
+                        <input type="test" placeholder="extra with food">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>how musch</span>
+                        <input type="number" placeholder="how many orders">
+                    </div>
+                    <div class="input">
+                        <span>date and time</span>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>your address</span>
+                        <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input">
+                        <span>your message</span>
+                        <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value="order now" class="btn">
+
+            </form>
+
+        </section>
+
+        <!-- order section ends -->
+
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">WaroengKU</a>
+                    <span class="footer__description">Restaurant</span>
+                    <div>
+                        <a href="https://www.facebook.com/ryota.irawan"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504903.png" alt="" style="height: 20px;"></a>
+                        <a href="https://twitter.com/home">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png" alt="" style="height: 20px;">
+                        </a>
+                        <a href="https://www.instagram.com/rioutaz/">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="" style="height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Semarang</li>
+                        <li>Jl. Basudewo No.711A</li>
+                        <li>+62-8782-2409-705</li>
+                        <li>zethoerick123@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="title_title">Opening Hours</h3>
+                    <ul class="opening-schedule">
+                        <li>Monday<span>
+                                5pm - 12pm</span>
+                        </li>
+                        <li>Tuesday<span>
+                                5pm - 12pm</span>
+                        </li>
+                        <li>Wednesday
+                            <span>
+                                5pm - 12pm</span>
+                        </li>
+                        <li>Thursday<span>
+                                5pm - 12pm</span>
+                        </li>
+                        <li>Friday<span>
+                                5pm - 12pm</span>
+                        </li>
+                        <li>Saturday
+                            <span>
+                                5pm - 11pm</span>
+                        </li>
+                        <li>Sunday<span>
+                                Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">Copyright &copy; 2020 Ryota Irawan.</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
